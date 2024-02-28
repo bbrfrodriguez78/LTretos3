@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "albumId": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "thumbnailUrl": {
+        "type": "string"
+      }
+    },
+    "required": ["albumId", "id", "title", "url", "thumbnailUrl"]
+  }
+}
